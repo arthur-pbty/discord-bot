@@ -2,6 +2,7 @@ import discord
 from decouple import config
 
 config.read(".env")
+token = config('token')
 
 intents = discord.Intents.default()
 intents.message_content = True
