@@ -1,7 +1,6 @@
 import discord
 from decouple import config
 
-config.read(".env")
 token = config('token')
 
 intents = discord.Intents.default()
