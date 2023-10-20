@@ -1,3 +1,4 @@
 virtual-evironments/
+_pycache_/
 commande.txt
 .env
